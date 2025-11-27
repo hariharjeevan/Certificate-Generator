@@ -28,5 +28,10 @@ This project allows you to generate personalized certificates in PDF format from
   ```
 
 ## Usage
-- ```python script.py``` (Generates the SVG files)
-- ```node svg-to-pdf.js``` (Generates the PDF files)
+- Use Canva or Adobe Illustrator to generate the Certificate Template in .svg format
+- Add a text placeholder "myname" in the template
+- Save the names in a ```names.csv``` file which will be used to replace the placeholder
+- Use
+  ```python script.py``` ( To generate the SVG files)
+- Use
+  ```node svg-to-pdf.js``` (To generate the PDF files)
