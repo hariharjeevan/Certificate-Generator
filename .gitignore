@@ -1,0 +1,7 @@
+.venv
+/certificates
+/certificates_svg
+/node_modules
+
+*.csv
+*.svg
